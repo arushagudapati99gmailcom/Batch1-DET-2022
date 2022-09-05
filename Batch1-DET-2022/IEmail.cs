@@ -1,61 +1,61 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace Batch1_DET_2022
-{
-    internal interface IEmail
-    {
+//namespace Batch1_DET_2022
+//{
+//    internal interface IEmail
+//    {
 
         
         
-            string SendEMail();
-        }
+//            string SendEMail();
+//        }
 
-        public interface INotify
-        {
-            string SendSMS();
-        }
+//        public interface INotify
+//        {
+//            string SendSMS();
+//        }
 
-        class Author : IEmail, INotify
-        {
-            public string Name { get; set; }
-            public string EMail { get; set; }
-            public char Gender { get; set; }
+//        class Author : IEmail, INotify
+//        {
+//            public string Name { get; set; }
+//            public string EMail { get; set; }
+//            public char Gender { get; set; }
 
-            public string SendEMail()
-            {
-                return $"Mail sent to {Name}, {EMail},{Gender}";
-            }
+//            public string SendEMail()
+//            {
+//                return $"Mail sent to {Name}, {EMail},{Gender}";
+//            }
 
-            public string SendSMS()
-            {
-                return $"{Name} subscribed SMS notifications";
-            }
-        }
+//            public string SendSMS()
+//            {
+//                return $"{Name} subscribed SMS notifications";
+//            }
+//        }
 
-        class SITLAuthor : Author, IEmail
-        {
-            public string SendEMail()
-            {
-                return $"mail sent to Name={Name}, EMail={EMail},Gender={Gender}";
-            }
-        }
+//        class SITLAuthor : Author, IEmail
+//        {
+//            public string SendEMail()
+//            {
+//                return $"mail sent to Name={Name}, EMail={EMail},Gender={Gender}";
+//            }
+//        }
 
-        class TestIAuthor
-        {
-            public static void Main()
-            {
-                Author a = new Author { Name = "arusha", EMail = "arusha.g", Gender = 'F' };
-                SITLAuthor sa = new SITLAuthor { Name = "neethu", EMail = "neethu.g", Gender = 'F' };
+//        class TestIAuthor
+//        {
+//            public static void Main()
+//            {
+//                Author a = new Author { Name = "arusha", EMail = "arusha.g", Gender = 'F' };
+//                SITLAuthor sa = new SITLAuthor { Name = "neethu", EMail = "neethu.g", Gender = 'F' };
 
-                Console.WriteLine(a.SendEMail());
-                Console.WriteLine(a.SendSMS());
-                Console.WriteLine(sa.SendEMail());
-            }
-        }
-    }
+//                Console.WriteLine(a.SendEMail());
+//                Console.WriteLine(a.SendSMS());
+//                Console.WriteLine(sa.SendEMail());
+//            }
+//        }
+//    }
 
 

@@ -5,11 +5,11 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Batch1-DET-2022", "Batch1-DET-2022\Batch1-DET-2022.csproj", "{A54417C3-A085-46E4-842A-67EFB786DBF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClassLib", "MyClassLib\MyClassLib.csproj", "{E7F8649B-C79D-4307-AEFA-7E3BD5B471E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyClassLib", "MyClassLib\MyClassLib.csproj", "{E7F8649B-C79D-4307-AEFA-7E3BD5B471E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClassLib_Client", "MyClassLib_Client\MyClassLib_Client.csproj", "{C6EF65B1-A1DB-4730-860F-91513DC4FC25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyClassLib_Client", "MyClassLib_Client\MyClassLib_Client.csproj", "{C6EF65B1-A1DB-4730-860F-91513DC4FC25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject_MyClassLib", "TestProject_MyClassLib\TestProject_MyClassLib.csproj", "{F93259F7-BCA7-48F1-992A-D6FBE8824435}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject_MyClassLib", "TestProject_MyClassLib\TestProject_MyClassLib.csproj", "{F93259F7-BCA7-48F1-992A-D6FBE8824435}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

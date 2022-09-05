@@ -1,7 +1,7 @@
-﻿namespace MyClassLib
-{
-    public class Class1
-    {
+﻿//namespace MyClassLib
+//{
+//    public class Class1
+//    {
 
-    }
-}
+//    }
+//}

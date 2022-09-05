@@ -4,28 +4,29 @@
 //using System.Text;
 //using System.Threading.Tasks;
 
-//namespace MyClassLib
+//namespace Batch1_DET_2022
 //{
-//    public class emp
+//    public class empL
+
 //    {
 //        //data declared inside class are known as "fields"
 //        int id;
 //        string name;
 //        string dept;
 //        double sal;
-//       public DateOnly doj;
+//        DateOnly doj;
 
 //        //constructor - is a function used to init object data
 //        //has the same name as classname, no ret type
-//        public emp(int id, string name, DateOnly doj)
+//        public empL(int id, string name, DateOnly doj)
 //        {
 //            this.id = id; this.name = name; this.doj = doj;
 //        }
-//        public emp()
+//        public empL()
 //        {
 //            id = -1; name = "no name";
 //        }
-//        public emp(int id, string name)
+//        public empL(int id, string name)
 //        {
 //            this.id = id; this.name = name;
 //        }
@@ -43,4 +44,6 @@
 
 
 //    }
+
 //}
+
